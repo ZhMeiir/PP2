@@ -1,0 +1,15 @@
+x = "Hello World"
+print(x) #output is "Hello World", because value of x is "Hello World"
+txt = "Hello World"
+y = txt[0]
+print (y) #output will be "H" because in string indexes of elements starts from 0 
+u = txt[2:5]
+print (u) #output will be "ell" because 5th elemnt is not included
+txt1 = " Hello World "
+print(txt1.strip()) #output will be "Hello, World!"
+print(txt.upper()) #output is "HELLO WORLD"
+print(txt.lower()) #output is "hello world"
+print(txt.replace("H", "J")) #output is "Jello World", because we raplace "H" with "J"
+age = 36
+txt2 = "My name is John, and I am {}"
+print(txt2.format(age)) #output will be "My name is John, and I am 36", because by using {} we show where we can use format
