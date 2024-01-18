@@ -1,0 +1,18 @@
+carname="Volvo"
+print(carname) #output will be "Volvo"
+x=5
+y=2
+print(5+2) #output will be 7
+c=x+y
+print(c) #output will be 7
+q, w, e= "orange", "banana", "cherry"
+print (q, w, e) #output will be "orange banana cherry"
+r=t=u="orange"
+print(r, t, u) #output will be "orange orange orange"
+def myfunc():
+ global o
+ o="good"
+myfunc()
+print(o) #output will be good, we use global to make o not only in function
+
+
