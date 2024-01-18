@@ -1,0 +1,14 @@
+x=5
+print (type(x)) #output will be "<class 'int'>" because data type of 5 is integer
+y="Hello world"
+print (type(y)) #output will be ""<class 'str'>" because data type of "Hello world" is string
+i=20.5
+print (type(i)) #output will be "<class 'float'>" because data type of 20.5is number with floating point
+o=["k", "l", "h"]
+print (type(o)) #output will be "<class 'list'>" because data type of o is list
+p = ("apple", "banana", "cherry")
+print(type(p)) #output will be "<class 'tuple'>" because data type of p is tuple
+t = {"name" : "John", "age" : 36}
+print(type(t)) #output will be "<class 'dict'>" because data type of t is dictionary
+r = True
+print(type(r)) #output will be "<class 'bool'>" because data type of "True" is booling operation
