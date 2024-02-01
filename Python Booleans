@@ -1,1 +1,45 @@
+#1 comparing
+print(10 > 9)
+print(10 == 9)
+print(10 < 9)
+#2 if statement
+a = 200
+b = 33
 
+if b > a:
+  print("b is greater than a")
+else:
+  print("b is not greater than a")
+#3 returns true whenever x or is not empty
+x = "Hello"
+y = 15
+
+print(bool(x))
+print(bool(y))
+#4 return false
+bool(False)
+bool(None)
+bool(0)
+bool("")
+bool(())
+bool([])
+bool({})
+#5 returning bool in func
+def myFunction() :
+  return True
+
+if myFunction():
+  print("YES!")
+else:
+  print("NO!")
+# Exercises
+#1 
+print(10 > 9)
+#2
+print(10 == 9)
+#3
+print(10 < 9)
+#4
+print(bool("abc"))
+#5
+print(bool(0))
