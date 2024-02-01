@@ -12,3 +12,4 @@ t = {"name" : "John", "age" : 36}
 print(type(t)) #output will be "<class 'dict'>" because data type of t is dictionary
 r = True
 print(type(r)) #output will be "<class 'bool'>" because data type of "True" is booling operation
+Meiir
