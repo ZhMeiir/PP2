@@ -1,9 +1,0 @@
-x=5
-x=float(x)
-print(x) #output will be "5.0" because we change data type of 5 from int to float
-y = 5.5
-y = int(y)
-print (y) #output will be "5" because we change data type of 5.5 from float to int
-u = 5
-u = complex(u)
-print (u)  #output will be "(5+0j)" because we change data type of 5 from int to complex

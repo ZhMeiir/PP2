@@ -1,0 +1,533 @@
+#1
+movies = [
+{
+"name": "Usual Suspects", 
+"imdb": 7.0,
+"category": "Thriller"
+},
+{
+"name": "Hitman",
+"imdb": 6.3,
+"category": "Action"
+},
+{
+"name": "Dark Knight",
+"imdb": 9.0,
+"category": "Adventure"
+},
+{
+"name": "The Help",
+"imdb": 8.0,
+"category": "Drama"
+},
+{
+"name": "The Choice",
+"imdb": 6.2,
+"category": "Romance"
+},
+{
+"name": "Colonia",
+"imdb": 7.4,
+"category": "Romance"
+},
+{
+"name": "Love",
+"imdb": 6.0,
+"category": "Romance"
+},
+{
+"name": "Bride Wars",
+"imdb": 5.4,
+"category": "Romance"
+},
+{
+"name": "AlphaJet",
+"imdb": 3.2,
+"category": "War"
+},
+{
+"name": "Ringing Crime",
+"imdb": 4.0,
+"category": "Crime"
+},
+{
+"name": "Joking muck",
+"imdb": 7.2,
+"category": "Comedy"
+},
+{
+"name": "What is the name",
+"imdb": 9.2,
+"category": "Suspense"
+},
+{
+"name": "Detective",
+"imdb": 7.0,
+"category": "Suspense"
+},
+{
+"name": "Exam",
+"imdb": 4.2,
+"category": "Thriller"
+},
+{
+"name": "We Two",
+"imdb": 7.2,
+"category": "Romance"
+}
+]
+
+def score(movie):
+    for x in movies:
+        if x["name"] == movie:
+            if x["imdb"] > 5.5:
+                print("More than 5.5")
+            else:
+                print("Less than 5.5")
+movie = input()
+score(movie)
+
+#2
+movies = [
+{
+"name": "Usual Suspects", 
+"imdb": 7.0,
+"category": "Thriller"
+},
+{
+"name": "Hitman",
+"imdb": 6.3,
+"category": "Action"
+},
+{
+"name": "Dark Knight",
+"imdb": 9.0,
+"category": "Adventure"
+},
+{
+"name": "The Help",
+"imdb": 8.0,
+"category": "Drama"
+},
+{
+"name": "The Choice",
+"imdb": 6.2,
+"category": "Romance"
+},
+{
+"name": "Colonia",
+"imdb": 7.4,
+"category": "Romance"
+},
+{
+"name": "Love",
+"imdb": 6.0,
+"category": "Romance"
+},
+{
+"name": "Bride Wars",
+"imdb": 5.4,
+"category": "Romance"
+},
+{
+"name": "AlphaJet",
+"imdb": 3.2,
+"category": "War"
+},
+{
+"name": "Ringing Crime",
+"imdb": 4.0,
+"category": "Crime"
+},
+{
+"name": "Joking muck",
+"imdb": 7.2,
+"category": "Comedy"
+},
+{
+"name": "What is the name",
+"imdb": 9.2,
+"category": "Suspense"
+},
+{
+"name": "Detective",
+"imdb": 7.0,
+"category": "Suspense"
+},
+{
+"name": "Exam",
+"imdb": 4.2,
+"category": "Thriller"
+},
+{
+"name": "We Two",
+"imdb": 7.2,
+"category": "Romance"
+}
+]
+
+def scores(movies):
+    films = []
+    for x in movies:
+        if x["imdb"] > 5.5:
+            films.append(x["name"])
+    print(*films, sep = "; ")
+scores(movies)
+
+#3
+movies = [
+{
+"name": "Usual Suspects", 
+"imdb": 7.0,
+"category": "Thriller"
+},
+{
+"name": "Hitman",
+"imdb": 6.3,
+"category": "Action"
+},
+{
+"name": "Dark Knight",
+"imdb": 9.0,
+"category": "Adventure"
+},
+{
+"name": "The Help",
+"imdb": 8.0,
+"category": "Drama"
+},
+{
+"name": "The Choice",
+"imdb": 6.2,
+"category": "Romance"
+},
+{
+"name": "Colonia",
+"imdb": 7.4,
+"category": "Romance"
+},
+{
+"name": "Love",
+"imdb": 6.0,
+"category": "Romance"
+},
+{
+"name": "Bride Wars",
+"imdb": 5.4,
+"category": "Romance"
+},
+{
+"name": "AlphaJet",
+"imdb": 3.2,
+"category": "War"
+},
+{
+"name": "Ringing Crime",
+"imdb": 4.0,
+"category": "Crime"
+},
+{
+"name": "Joking muck",
+"imdb": 7.2,
+"category": "Comedy"
+},
+{
+"name": "What is the name",
+"imdb": 9.2,
+"category": "Suspense"
+},
+{
+"name": "Detective",
+"imdb": 7.0,
+"category": "Suspense"
+},
+{
+"name": "Exam",
+"imdb": 4.2,
+"category": "Thriller"
+},
+{
+"name": "We Two",
+"imdb": 7.2,
+"category": "Romance"
+}
+]
+def same_cat(cat,movies):
+    same_category = []
+    for x in movies:
+        if x["category"] == cat:
+            same_category.append(x["name"])
+    print(*same_category, sep = "; ")
+cat = input()
+same_cat(cat,movies)
+
+#4
+movies = [
+{
+"name": "Usual Suspects", 
+"imdb": 7.0,
+"category": "Thriller"
+},
+{
+"name": "Hitman",
+"imdb": 6.3,
+"category": "Action"
+},
+{
+"name": "Dark Knight",
+"imdb": 9.0,
+"category": "Adventure"
+},
+{
+"name": "The Help",
+"imdb": 8.0,
+"category": "Drama"
+},
+{
+"name": "The Choice",
+"imdb": 6.2,
+"category": "Romance"
+},
+{
+"name": "Colonia",
+"imdb": 7.4,
+"category": "Romance"
+},
+{
+"name": "Love",
+"imdb": 6.0,
+"category": "Romance"
+},
+{
+"name": "Bride Wars",
+"imdb": 5.4,
+"category": "Romance"
+},
+{
+"name": "AlphaJet",
+"imdb": 3.2,
+"category": "War"
+},
+{
+"name": "Ringing Crime",
+"imdb": 4.0,
+"category": "Crime"
+},
+{
+"name": "Joking muck",
+"imdb": 7.2,
+"category": "Comedy"
+},
+{
+"name": "What is the name",
+"imdb": 9.2,
+"category": "Suspense"
+},
+{
+"name": "Detective",
+"imdb": 7.0,
+"category": "Suspense"
+},
+{
+"name": "Exam",
+"imdb": 4.2,
+"category": "Thriller"
+},
+{
+"name": "We Two",
+"imdb": 7.2,
+"category": "Romance"
+}
+]
+def calc_avg(compMovies, movies):
+    avg = 0
+    for i in compMovies:
+        for j in movies:
+            if i == j["name"]:
+                avg += j["imdb"]
+    avg = avg / len(compMovies)
+    print(avg)
+compMovies = ["We Two", "Exam", "Detective"]
+calc_avg(compMovies, movies)
+
+#5
+movies = [
+{
+"name": "Usual Suspects", 
+"imdb": 7.0,
+"category": "Thriller"
+},
+{
+"name": "Hitman",
+"imdb": 6.3,
+"category": "Action"
+},
+{
+"name": "Dark Knight",
+"imdb": 9.0,
+"category": "Adventure"
+},
+{
+"name": "The Help",
+"imdb": 8.0,
+"category": "Drama"
+},
+{
+"name": "The Choice",
+"imdb": 6.2,
+"category": "Romance"
+},
+{
+"name": "Colonia",
+"imdb": 7.4,
+"category": "Romance"
+},
+{
+"name": "Love",
+"imdb": 6.0,
+"category": "Romance"
+},
+{
+"name": "Bride Wars",
+"imdb": 5.4,
+"category": "Romance"
+},
+{
+"name": "AlphaJet",
+"imdb": 3.2,
+"category": "War"
+},
+{
+"name": "Ringing Crime",
+"imdb": 4.0,
+"category": "Crime"
+},
+{
+"name": "Joking muck",
+"imdb": 7.2,
+"category": "Comedy"
+},
+{
+"name": "What is the name",
+"imdb": 9.2,
+"category": "Suspense"
+},
+{
+"name": "Detective",
+"imdb": 7.0,
+"category": "Suspense"
+},
+{
+"name": "Exam",
+"imdb": 4.2,
+"category": "Thriller"
+},
+{
+"name": "We Two",
+"imdb": 7.2,
+"category": "Romance"
+}
+]
+
+def avg_category(category, movies):
+    avg = 0
+    count = 0
+    for i in movies:
+        if i["category"] == category:
+            avg += i["imdb"]
+            count += 1
+    avg = avg / count
+    print(avg) 
+category = input()
+avg_category(category, movies)
+
+#5
+movies = [
+{
+"name": "Usual Suspects", 
+"imdb": 7.0,
+"category": "Thriller"
+},
+{
+"name": "Hitman",
+"imdb": 6.3,
+"category": "Action"
+},
+{
+"name": "Dark Knight",
+"imdb": 9.0,
+"category": "Adventure"
+},
+{
+"name": "The Help",
+"imdb": 8.0,
+"category": "Drama"
+},
+{
+"name": "The Choice",
+"imdb": 6.2,
+"category": "Romance"
+},
+{
+"name": "Colonia",
+"imdb": 7.4,
+"category": "Romance"
+},
+{
+"name": "Love",
+"imdb": 6.0,
+"category": "Romance"
+},
+{
+"name": "Bride Wars",
+"imdb": 5.4,
+"category": "Romance"
+},
+{
+"name": "AlphaJet",
+"imdb": 3.2,
+"category": "War"
+},
+{
+"name": "Ringing Crime",
+"imdb": 4.0,
+"category": "Crime"
+},
+{
+"name": "Joking muck",
+"imdb": 7.2,
+"category": "Comedy"
+},
+{
+"name": "What is the name",
+"imdb": 9.2,
+"category": "Suspense"
+},
+{
+"name": "Detective",
+"imdb": 7.0,
+"category": "Suspense"
+},
+{
+"name": "Exam",
+"imdb": 4.2,
+"category": "Thriller"
+},
+{
+"name": "We Two",
+"imdb": 7.2,
+"category": "Romance"
+}
+]
+
+def avg_category(category, movies):
+    avg = 0
+    count = 0
+    for i in movies:
+        if i["category"] == category:
+            avg += i["imdb"]
+            count += 1
+    avg = avg / count
+    print(avg) 
+category = input()
+avg_category(category, movies)
