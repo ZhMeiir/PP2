@@ -1,12 +1,6 @@
-def all_true(tup):
-    return all(tup)
-tup=list()
-while True:
-    value = input()
-    if not value:
-        break
-    tup += (eval(value))
-if all_true(tup):
-    print("All elements in the tuple are true")
+tuple0 = (True, True, True, True, False, True)
+
+if all(tuple0):
+    print("Everything in the tuple is true")
 else:
-    print("All elements are not true")
+    print("There exist False in this tuple")
